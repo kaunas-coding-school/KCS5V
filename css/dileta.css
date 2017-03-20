@@ -1,6 +1,9 @@
 body{
     background-color: bisque;
-    color: darkgreen;
+    color: brown;
     margin: 0;
     padding: 0;
+}
+div.header{
+    color: darkgoldenrod;
 }
