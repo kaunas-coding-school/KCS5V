@@ -1,1 +1,42 @@
-body{}
+body{
+    background-color: green;
+    color: white;
+    margin:0;
+    padding: 0;
+}
+.wrapperis{
+    height: 300px;
+}
+.header, .footer {
+    height: 166px;
+    text-align: center;
+    background-color: #e3e300;
+    color: white;
+    border: 1px solid black;
+}
+.sidebar, .content{
+    float: left;
+    display: block;
+}
+
+.content{
+    width: 80%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sidebar{
+    width: 20%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.footer{
+    background-color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.header{
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
