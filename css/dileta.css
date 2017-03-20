@@ -1,6 +1,6 @@
 body{
     background-color: bisque;
-    color: brown;
+    color: indigo;
     margin: 0;
     padding: 0;
 }
@@ -18,10 +18,12 @@ body{
 }
 .content {
     width: 80%;
-
-
+}
+.content, .sidebar {
+    background-color: aqua;
+    color: indigo;
 }
 .header, .footer {
 border: 1px solid black;
-    color: pink;
+    color: red;
 }
