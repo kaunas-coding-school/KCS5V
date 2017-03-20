@@ -7,6 +7,8 @@ body{
 .header, .footer{
     height: 150px;
     text-align: center;
+    background-color: red;
+    color: pink;
 }
 
 .sidebar, .content {
@@ -20,4 +22,8 @@ body{
     width: 80%;
 
 
+}
+.header, .footer {
+    background-color: black;
+    color: white;
 }
