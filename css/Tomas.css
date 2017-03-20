@@ -1,0 +1,32 @@
+body{
+    background-color: lightcyan;
+    color: blue;
+    margin: 0;
+    padding: 0;
+
+}
+.header, .footer {
+    height: 150px;
+    text-align: center;
+    border: 5px solid black;
+    color: red;
+}
+.sidebar, .content {
+    float: left;
+    display: block;
+}
+.sidebar {
+    width: 20%;
+}
+.content {
+    width: 40%;
+    color: blueviolet;
+}
+.wraper {
+    height: 400px;
+}
+.sidebar {
+    color: red;
+    background-color: gold;
+    height: 100%;
+}
