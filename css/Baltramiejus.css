@@ -1,1 +1,56 @@
-body{}
+body{
+background-color: lightblue;
+color: blue;
+margin: 0;
+padding: 0;
+}
+
+.header, .footer {
+height: 50px;
+text-align: center;
+background-color: light blue;
+border: 1px solid black;
+color: red;
+}
+
+.header{
+postion: fixed;
+}
+
+.content{
+text-align: center;
+}
+
+#teksto_pabraukimas{
+text-decoration: underline;
+}
+
+#teksto_pabraukimas, #introduction, #abstract{
+text-align: justified;
+}
+
+#introduction{
+background-color: white;
+}
+
+#abstract{
+background-color: green;
+}
+
+.wrapperis{
+height: 534px;
+}
+
+.sidebar, .content{
+float: left;
+display: block;
+}
+
+.sidebar{
+width: 20%;
+}
+
+.content{
+width: 80%;
+}
+
