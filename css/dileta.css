@@ -1,29 +1,32 @@
 body{
-    background-color: bisque;
-    color: indigo;
+    background-color: white;
+    color: black;
     margin: 0;
     padding: 0;
 }
-.header, .footer{
-    height: 150px;
-    text-align: center;
-}
 
-.sidebar, .content {
-    float: left;
-    display: block;
-}
-.sidebar {
-    width: 200px;
+.header{
+    max-width: 900px;
+    height: 100px;
+    background-color: yellow;
 }
 .content {
-    width: 300px;
+    max-width: 900px;
+    height: 500px;
+    background-color: white;
 }
-.content, .sidebar {
+
+.footer{
+    max-width: 900px;
+    height: 100px;
+    background-color: blue;
+}
+
+.sidebar {
+    position: absolute;
+    width: 100px;
+    height: 500px;
     background-color: aqua;
     color: indigo;
-}
-.header, .footer {
-border: 1px solid black;
-    color: red;
+
 }
