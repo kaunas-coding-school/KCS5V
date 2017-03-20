@@ -14,10 +14,10 @@ body{
     display: block;
 }
 .sidebar {
-    width: 20%;
+    width: 200px;
 }
 .content {
-    width: 80%;
+    width: 300px;
 }
 .content, .sidebar {
     background-color: aqua;
