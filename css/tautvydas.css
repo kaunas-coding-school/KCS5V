@@ -10,27 +10,55 @@ body {
     text-align: center;
     border: 1px solid black;
     color: white;
-
+    background-color: chartreuse;
+}
+.footer {
+    padding-top: 20px;
+    color: #777777;
 }
 .wrapperis {
     height: 300px;
-
+    margin-top: 50px;
+    display: inline-block;
+    padding: 20px 0;
+    overflow-y: auto;
 }
 .sidebar, .content {
     float: left;
     display: block;
+    margin: 0 2%;
 }
-
 .sidebar {
-    width: 20%;
+    width: 16%;
 }
-
 .content {
-    width: 80%;
+    width: 76%;
 }
-
 .header {
-    height:50px;
+    height: 50px;
     width: 100%;
     position: fixed;
+}
+nav {
+    height: inherit;
+}
+.meniu {
+    height: inherit;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.meniu li {
+    height: inherit;
+    float: left;
+}
+.meniu_elem a {
+    height: inherit;
+    display: block;
+    min-width: 100px;
+    text-decoration: none;
+    padding-top: 14px;
+}
+.meniu_elem:hover {
+    background-color: #e3e300;
 }
