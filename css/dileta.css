@@ -6,7 +6,7 @@ body{
 }
 
 .header{
-    max-width: 800px;
+    max-width: 1000px;
     height: 100px;
     background-color: yellow;
     color: indigo;
@@ -51,7 +51,7 @@ body{
 }
 
 .footer{
-    max-width: 800px;
+    max-width: 780px;
     height: 100px;
     background-color: blue;
     color: black;
@@ -80,4 +80,3 @@ body{
     margin-left: 3px;
     display: inline-block;
 }
-
