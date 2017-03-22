@@ -1,7 +1,41 @@
 body{
-background-color: lightblue;
-color: blue;
-margin: 0;
-psffing: 0;
+    background-color: Green;
+    color: black;
+    margin:0;
+    padding: 0;
 }
-div .header
+.wrapperis{
+    height: 0px;
+}
+.header, .footer {
+    height: 0px;
+    text-align: center;
+    background-color: #e3e300;
+    color: white;
+    border: 1px solid black;
+}
+.sidebar, .content{
+    float: left;
+    display: block;
+}
+
+.content{
+    width: 40%;
+    font-weight: bold;
+    font-size: 40px;
+}
+.sidebar{
+    width: 40%;
+    font-weight: bold;
+    font-size: 40px;
+}
+.footer{
+    background-color:black;
+    font-size: 55px;
+    font-weight: bold;
+}
+.header{
+    color: black;
+    font-size: 55px;
+    font-weight: bold;
+}
