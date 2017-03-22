@@ -3,4 +3,60 @@ background-color: lightblue;
 color: blue;
 margin: 0;
 padding: 0;
+
+
+
+}
+.header, .footer {
+height: 150px;
+text-align: center;
+border: 1px solid black;
+color: white;
+}
+
+.sidebar, .content{
+float: left;
+display: block;
+
+}
+
+.sidebar{
+width: 10%;
+}
+
+.content{
+width: 90%;
+}
+
+.wrapper{
+height: 300px;
+font-family: "Times New Roman", Times, serif;
+font-size: 19px;
+color: white;
+}
+
+.header{
+font-family: "Times New Roman", Times, serif;
+text-shadow: 3px 2px red;
+font-size: 30px;
+text-align: center;
+}
+
+.footer {
+font-family: "Times New Roman", Times, serif;
+font-size: 15px;
+text-align: right;
+color: black;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
 }
