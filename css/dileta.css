@@ -6,32 +6,59 @@ body{
 }
 
 .header{
-    max-width: 500px;
+    max-width: 700px;
     height: 100px;
     background-color: yellow;
     color: indigo;
     letter-spacing: 3px;
     text-shadow: greenyellow;
-    font-family: 'Verdana', cursive;
+    font-family: 'Arial Black', cursive;
+    text-shadow: 2px 2px #917388;
+}
+.atitraukimas{
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
 }
 .content {
     max-width: 500px;
-    height: 500px;
+    height: 200px;
     position: relative;
     left: 100px;
     background-color: white;
     color: blue;
     margin: 20px;
     font-family: 'Verdana', cursive;
+    text-decoration: underline;
+
+}
+.content2 {
+    max-width: 350px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    background-color: white;
+    color: blue;
+    font-family: 'Verdana', cursive;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
 }
 
 .footer{
     max-width: 500px;
     height: 100px;
     background-color: blue;
-    color: white;
+    color: black;
     letter-spacing: 2px;
     font-family: 'Verdana', cursive;
+    padding: 0.5cm 3cm;
+
+}
+
+.remelis{
+    padding: 20px;
+    background-color: aqua;
 }
 
 .sidebar {
@@ -43,3 +70,9 @@ body{
     font-family: 'Verdana', cursive;
 
 }
+.atitraukimas2 {
+    margin-top: 25px;
+    margin-left: 3px;
+    display: inline-block;
+}
+
