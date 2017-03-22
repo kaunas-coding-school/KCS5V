@@ -6,28 +6,40 @@ body{
 }
 
 .header{
-    max-width: 900px;
+    max-width: 500px;
     height: 100px;
     background-color: yellow;
-    font-family: 'Baloo Bhaina', cursive;
+    color: indigo;
+    letter-spacing: 3px;
+    text-shadow: greenyellow;
+    font-family: 'Verdana', cursive;
 }
 .content {
-    max-width: 900px;
+    max-width: 500px;
     height: 500px;
+    position: relative;
+    left: 100px;
     background-color: white;
+    color: blue;
+    margin: 20px;
+    font-family: 'Verdana', cursive;
 }
 
 .footer{
-    max-width: 900px;
+    max-width: 500px;
     height: 100px;
     background-color: blue;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Verdana', cursive;
 }
 
 .sidebar {
     position: absolute;
     width: 100px;
-    height: 500px;
+    height: 530px;
     background-color: aqua;
     color: indigo;
+    font-family: 'Verdana', cursive;
 
 }
