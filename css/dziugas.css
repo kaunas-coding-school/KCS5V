@@ -4,33 +4,28 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .header, .footer {
     height: 150px;
     text-align: center;
     border: 1px solid black;
     color: white;
-
 }
 .wrapperis {
     height: 300px;
-
 }
 .sidebar, .content {
     float: left;
     display: block;
 }
-
 .sidebar {
     width: 20%;
 }
-
 .content {
     width: 80%;
 }
-
 .header {
     height:50px;
     width: 100%;
-    position: fixed;
+/*  position: fixed;
+*/
 }
