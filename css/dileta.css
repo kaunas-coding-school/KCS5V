@@ -1,6 +1,82 @@
 body{
-    background-color: aquamarine;
-    color: brown;
+    background-color: mistyrose;
+    color: black;
     margin: 0;
     padding: 0;
+}
+
+.header{
+    max-width: 1000px;
+    height: 100px;
+    background-color: yellow;
+    color: indigo;
+    letter-spacing: 3px;
+    text-shadow: greenyellow;
+    font-family: 'Arial Black', cursive;
+    text-decoration: line-through;
+}
+.atitraukimas{
+    margin-top: 10px;
+    margin-left: 120px;
+    display: inline-block;
+}
+.content {
+    max-width: 500px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    background-color: mistyrose;
+    color: blue;
+    margin: 20px;
+    font-family: 'Verdana', cursive;
+    text-decoration: underline;
+
+}
+.content2 {
+    max-width: 350px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    background-color: mistyrose;
+    color: blue;
+    font-family: 'Verdana', cursive;
+    margin: 10px;
+    padding: 10px;
+
+}
+.remelis2 {
+    padding: 3px;
+    border: 1px solid red;
+
+}
+
+.footer{
+    max-width: 780px;
+    height: 100px;
+    background-color: blue;
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Verdana', cursive;
+    padding: 0.5cm 3cm;
+
+}
+
+.remelis{
+    padding: 10px;
+    background-color: dodgerblue;
+}
+
+.sidebar {
+    position: absolute;
+    width: 100px;
+    height: 470px;
+    background-color: aqua;
+    color: indigo;
+    font-family: 'Verdana', cursive;
+
+}
+.atitraukimas2 {
+    margin-top: 25px;
+    margin-left: 3px;
+    display: inline-block;
 }
