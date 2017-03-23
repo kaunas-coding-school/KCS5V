@@ -21,9 +21,9 @@ body {
 }
 
 .footer {
-    height: 20px;
+    height: 30px;
     text-align: center;
-    background-color: rgb(111, 116, 214);
+    background-color: white;
     border: 1px solid black;
     color: red;
 }
@@ -35,8 +35,15 @@ body {
     height: 534px;
 }
 
+.sidebar{
+    float: right;
+}
+
 .mano_nuotrauka{
     color: white;
 }
 
+/*.demo{
+    color: white;
+}*/
 
