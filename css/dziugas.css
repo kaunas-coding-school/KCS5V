@@ -25,9 +25,9 @@ img{
 }
 .sidebar, .content {
     float: left;
-    display: inline;
 }
 .sidebar {
+    display: block;
     padding: 1%;
     border: 5px solid white;
     width: 20%;
