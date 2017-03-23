@@ -1,56 +1,42 @@
-body{
-background-color: lightblue;
-color: blue;
-margin: 0;
-padding: 0;
+body {
+    background-image: url("/img/Motohospital_logo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+    background-size: 50% 100%;
+    /*margin: 0;
+    padding: 0;*/
 }
 
-.header, .footer {
-height: 50px;
-text-align: center;
-background-color: light blue;
-border: 1px solid black;
-color: red;
+.header {
+    height: 50px;
+    font-size: 35px;
+    text-align: right;
+    background-color: transparent;
+    border: 1px solid black;
+    color: red;
+    position: fixed;
+    min-width: 74.2%;
 }
 
-.header{
-postion: fixed;
+.footer {
+    height: 20px;
+    text-align: center;
+    background-color: rgb(111, 116, 214);
+    border: 1px solid black;
+    color: red;
 }
 
-.content{
-text-align: center;
+.wrapperis {
+    float: right;
+    text-align: right;
+    color: white;
+    height: 534px;
 }
 
-#teksto_pabraukimas{
-text-decoration: underline;
+.mano_nuotrauka{
+    color: white;
 }
 
-#teksto_pabraukimas, #introduction, #abstract{
-text-align: justified;
-}
-
-#introduction{
-background-color: white;
-}
-
-#abstract{
-background-color: green;
-}
-
-.wrapperis{
-height: 534px;
-}
-
-.sidebar, .content{
-float: left;
-display: block;
-}
-
-.sidebar{
-width: 20%;
-}
-
-.content{
-width: 80%;
-}
 

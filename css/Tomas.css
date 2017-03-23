@@ -1,32 +1,68 @@
 body{
     background-color: lightcyan;
     color: blue;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 
 }
-.header, .footer {
+
+ .footer {
     height: 150px;
-    text-align: center;
+    text-align: left;
     border: 5px solid black;
     color: red;
 }
-.sidebar, .content {
-    float: left;
+.header{
+    height: 150px;
+    text-align: center;
+    border: 5px solid black;
+    color: black;
+    font-family: "fantasy";
+    font-size: 200%;
+}
+.sidebar, .sidebar1 {
+
     display: block;
+    text-align: left;
 }
-.sidebar {
-    width: 20%;
+h4 {
+    text-align: center;
+    border: 3px solid gray;
 }
+p {
+    background-color: bisque;
+    border: 3px solid whitesmoke;
+    margin: 25px;
+
+}
+
 .content {
-    width: 40%;
+    width: 60%;
     color: blueviolet;
+    background-color: sandybrown;
+    display: block;
+    height: 100%;
+    float: left;
+
 }
 .wraper {
-    height: 400px;
+    height: 600px;
 }
 .sidebar {
     color: red;
     background-color: gold;
     height: 100%;
+    width: 20%;
+    float: right;
+
+
+
+}
+.sidebar1 {
+    color: red;
+    background-color: gold;
+    height: 100%;
+    width: 20%;
+    float: left;
+
 }
