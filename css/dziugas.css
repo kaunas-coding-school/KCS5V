@@ -34,7 +34,7 @@ img{
     height:93%;
 }
 .content {
-    align-items: center;
+    text-align: center;
     background-color: cadetblue;
     padding: 1%;
     width: 70%;
