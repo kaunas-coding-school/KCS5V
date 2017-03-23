@@ -8,7 +8,6 @@ body {
     /*margin: 0;
     padding: 0;*/
 }
-
 .header {
     height: 50px;
     font-size: 35px;
@@ -17,33 +16,35 @@ body {
     border: 1px solid black;
     color: red;
     position: fixed;
-    min-width: 74.2%;
+    width: 35%;
+    margin: 2%;
 }
-
-.footer {
+#footer {
+    position: fixed;
     height: 30px;
     text-align: center;
-    background-color: white;
-    border: 1px solid black;
+    background-color: transparent;
     color: red;
+    width: 100%;
+    bottom: 0%;
 }
-
 .wrapperis {
+    border: solid;
+    border-color: chartreuse;
     float: right;
-    text-align: right;
+    text-align: left;
     color: white;
-    height: 534px;
+    /*height: 534px;*/
 }
-
+p{
+    margin: 1px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
 .sidebar{
     float: right;
 }
-
 .mano_nuotrauka{
     color: white;
 }
-
-/*.demo{
-    color: white;
-}*/
 
