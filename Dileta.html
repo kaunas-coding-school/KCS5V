@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/cssreset.css">
     <link rel="stylesheet" href="css/dileta.css">
 
 </head>
 <body>
 
 <div class="header">
+    <button type="button" onclick="manoFunkcija2('img/muse.png')">Muse</button>
+    <img id="muse" src="img/kcs.jpg" width="50" height="50" />
     <h1
     class="atitraukimas">RINKEJU SARASAS</h1>
+
 
 </div>
 
 
 <div class="sidebar">
+    <button type="button" onclick="manoFunkcija('Dar kitas tekstas')">Spausti</button>
     <h3
-    class="atitraukimas2">Kauno apylinke</h3>
+    class="atitraukimas2" id="elementas1">Kauno apylinke</h3>
 
 
 </div>
@@ -47,8 +52,12 @@
 <div class="footer">
     <h3
     class="remelis">Rinkimu apylinkes adresas</h3>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">
+        Siandienos data.</button>
+<div id="demo"></div>
 </div>
 
+<script src="js/dileta.js"></script>
 </body>
 </html>
 

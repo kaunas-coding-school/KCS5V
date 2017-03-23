@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Tautvydas</title>
+    <link rel="stylesheet" href="css/cssreset.css">
     <link rel="stylesheet" href="css/tautvydas.css">
 </head>
 <body>
@@ -24,19 +25,23 @@
 <div class="wrapperis">
     <div class="sidebar">
         Cia gali buti jusu reklama...
+        <button type="button" onclick="manoFunkcija('Dar kitas tekstas')">Spausti</button>
     </div>
     <div class="content">
-        Content
-        <p class="" id="testas">
-            <!--<img src="img/kcs.jpg" />-->
+        Content <input type="button" onclick="keistiPav('img/Oh Yeah.gif')" value="Keisti pav."/>
+        <p class="" id="testas" onclick="keistiteksta('naujas tekstas')">
+            <img src="img/kcs.jpg" id="paveiksl" width="100" height="100"/>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla sollicitudin augue, et tincidunt tellus vulputate nec. Vestibulum faucibus dui sit amet consectetur eleifend. Mauris imperdiet tortor vel scelerisque sollicitudin. Ut arcu odio, vehicula eget hendrerit at, auctor ut libero. Maecenas dui ante, facilisis in tellus ultricies, rutrum condimentum neque. Ut lobortis risus vitae lorem blandit, et posuere nisl rhoncus. Etiam at lorem sollicitudin, fringilla nibh et, hendrerit eros. Mauris tristique ligula in rutrum gravida. Duis vitae urna tempus, ornare erat ut, viverra nunc. Cras placerat volutpat erat eu efficitur.        </p>
         <p class="" id="naujas">
             Etiam ac suscipit lorem, sit amet fringilla libero. Maecenas erat metus, auctor id dictum a, sagittis sed augue. Nam id accumsan diam. Nunc sed nunc aliquet, viverra tortor quis, efficitur metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla nisi elit, maximus id urna vel, porta rhoncus tortor. Sed vitae nisi egestas, semper tellus sit amet, accumsan quam. Donec hendrerit mi non nisl lobortis, sit amet malesuada leo tempus. Aliquam eu fermentum lorem, sollicitudin rutrum dolor.
         </p>
     </div>
 </div>
-<div class="footer">
+<div class="footer" id="elementas1">
     Visos teisės saugomos.
 </div>
+
+<script src="js/tautvydas.js"></script>
+
 </body>
 </html>
