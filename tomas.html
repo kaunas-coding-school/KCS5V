@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/cssreset.css">
     <link rel="stylesheet" href="css/Tomas.css">
 </head>
 <body>
 
-<div class="header">
-    <h1>Geras restoranas</h1>
+<div class="header" id="demo">
+    <button type="button" onclick="manoFuunkcija('cia gali buti jusu reklama')">spausti</button>
+    <h1>Senas geras restoranas</h1>
 </div>
 <div class="wraper">
-
     <div class="sidebar">
         <h4>Gerimai</h4>
         <p>Cola.</p>
@@ -22,6 +23,7 @@
 
     </div>
     <div class="sidebar1">
+
         <h4>Desertai</h4>
         <p>Ledai.</p>
         <p>Pyragelis</p>
@@ -32,23 +34,20 @@
     </div>
     <div class="content">
         <h4>Meniu</h4>
-        <p>Kiauleena</p>
+        <p>Kiauliena</p>
         <p>Jautiena</p>
         <p>Paukstiena</p>
         <p>Zveriena</p>
         <p>Cepelinai</p>
 
     </div>
-
-
-
 </div>
-
-
+<script src="js/Tomas.js"></script>
 
 <div class="footer">
     Musu kontaktai
-    <h5>Kaunas Sanciai kareivines 1a.</h5>
+    <button type="button" onclick="kaitaliotiTeksta('naujas tekstas')">spausti</button>
+    <h5  id="demo1">Kaunas Sanciai kareivines 1a.</h5>
 </div>
 </body>
 </html>
