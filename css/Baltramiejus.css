@@ -8,6 +8,15 @@ body {
     /*margin: 0;
     padding: 0;*/
 }
+.rowSpalva1 {
+    background-color: #4a66ce;
+}
+.rowSpalva2 {
+    background-color: transparent;
+    color: white;
+}
+
+/*
 .header {
     height: 50px;
     font-size: 35px;
@@ -34,9 +43,9 @@ body {
     float: right;
     text-align: left;
     color: white;
-    /*height: 534px;*/
+    /*height: 534px;
 }
-p{
+.p{
     margin: 1px;
     border: 2px solid white;
     border-radius: 5px;
@@ -47,4 +56,4 @@ p{
 .mano_nuotrauka{
     color: white;
 }
-
+*/
