@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=""ng-app="">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/cssreset.css">
     <link rel="stylesheet" href="css/dileta.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
 </head>
 <body>
+
+<form action="/gauti.php">
+    First name:<br>
+    <input type="text" name="firstname" value="">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="">
+    <br>
+    Zinute<br>
+    <textarea name ="zinute"></textarea>
+    <br><br>
+    <input type="submit" value="Siusti">
+</form>
+
+{{2+2}}
 
 <div class="header">
     <button type="button" onclick="manoFunkcija2('img/muse.png')">Muse</button>
