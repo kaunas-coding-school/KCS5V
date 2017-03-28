@@ -1,4 +1,4 @@
-function Karoliscontroller() {
+function karoliscontroller() {
     var vm = this;
      vm.title = 'Antraštė';
 }
