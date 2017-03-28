@@ -1,2 +1,1 @@
 
-app.controller('DiletaController', DiletaController());
