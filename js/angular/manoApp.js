@@ -1,11 +1,11 @@
 var app = angular.module('manoApp', []);
 
 app.controller('TautvydasController', TautvydasController());
-app.controller('KarolisController', karolisController());
-app.controller('TomasController', tautvydasController());
+app.controller('KarolisController', KarolisController());
+app.controller('TomasController', TomasController());
 app.controller('DziugasController', DziugasController());
-app.controller('IgnasController', ignasController());
-app.controller('DariusController', DariusController());
+app.controller('IgnasController', IgnasController());
+app.controller('DariusController', dariusController());
 app.controller('DiletaController', DiletaController());
 app.controller('AurimasController', AurimasController());
 
