@@ -1,3 +1,4 @@
-/**
- * Created by Ignas on 2017.03.28.
- */
+function IgnasController(){
+    var vm = this;
+    vm.title = 'Antraste';
+}
