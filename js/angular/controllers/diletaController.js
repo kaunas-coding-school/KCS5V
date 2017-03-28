@@ -1,2 +1,4 @@
 
-app.controller('DiletaController', DiletaController());
+function DiletaController() {
+    var vm = this;
+    vm.title = 'Antraštė';}
