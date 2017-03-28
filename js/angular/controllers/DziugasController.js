@@ -4,4 +4,6 @@
 function DziugasController() {
     var vm=this;
     vm.title='Antraštė';
+    vm.vardas='Džiugas';
+    vm.pavarde='Tornau';
 }

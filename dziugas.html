@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/dziugas.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="js/angular/manoApp.js"></script>
     <script src="js/angular/controllers/AurimasController.js"></script>
     <script src="js/angular/controllers/DariusController.js"></script>
     <script src="js/angular/controllers/diletaController.js"></script>
@@ -18,6 +17,7 @@
     <script src="js/angular/controllers/karolisController.js"></script>
     <script src="js/angular/controllers/TautvydasController.js"></script>
     <script src="js/angular/controllers/TomasController.js"></script>
+    <script src="js/angular/manoApp.js"></script>
 
 </head>
 <body ng-init="vardas='Dziugas'">
@@ -40,21 +40,22 @@
         </div>
     </nav>
 </div>
-<div class="container" ng-controller="DziugasController">
-    <div class="row">
+<div class="container">
+    <div class="row" ng-controller="DziugasController as dtc">
         <div class="col s4">
             <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
-                    <span class="card-title" ng-bind="DziugasController.title">Card Title</span>
+
+                    <span class="card-title" ng-bind="dtc.title">Card Title</span>
+
                     <p class="" id="testas" onclick="keistiteksta('Naujas tekstas, spausk dar kartą')">
-                        Spausk, kad pakeistum tekstą<br>
-                        <br>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.<br>
-                        <br>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.<br>
-                        <br>
-                        I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.
+
+                        {{dtc.vardas}}
+                        {{dtc.pavarde}}
+                        <input type="text" ng-model="dtc.vardas"/>
+                        <input type="text" ng-model="dtc.vardas"/>
+                        <span ng-bind="dtc.vardas"></span>
+
                      </p>
                 </div>
                 <div class="card-action">
