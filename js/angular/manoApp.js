@@ -5,4 +5,6 @@ app.controller('KarolisController', karolisController());
 app.controller('TomasController', tautvydasController());
 app.controller('DziugasController', dziugasController());
 app.controller('IgnasController', ignasController());
-app.controller('AurimasController', aurimasController());
+app.controller('DariusController', dariusController());
+
+
