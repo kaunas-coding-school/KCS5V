@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="">
+<html lang="en" ng-app="manoApp">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/angular/manoApp.js"></script>
+    <script src="js/angular/controllers/aurimasController.js"></script>
+    <script src="js/angular/controllers/dariusController.js"></script>
+    <script src="js/angular/controllers/diletaController.js"></script>
+    <script src="js/angular/controllers/dziugasController.js"></script>
+    <script src="js/angular/controllers/ignasController.js"></script>
+    <script src="js/angular/controllers/karolisController.js"></script>
+    <script src="js/angular/controllers/tautvydasController.js"></script>
+    <script src="js/angular/controllers/TomasController.js"></script>
 </head>
 <body ng-init="vardas='Darius'">
+<header ng-controller="DariusController as dcl">
+    <span ng-bind="dcl.title">Naujas</span>
 
+</header>
 <footer>
  <span ng-bind="vardas">test</span>
+
 
 </footer>
 </body>
