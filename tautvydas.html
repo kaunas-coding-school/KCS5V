@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="">
 <head>
     <meta charset="UTF-8">
     <title>Tautvydas</title>
@@ -9,13 +9,17 @@
 
     <link rel="stylesheet" href="css/tautvydas.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
 </head>
-<body>
+<body ng-init="vardas='Tautvydas'">
 
 <div class="row blue  lighten-2">
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo right">Logo</a>
+            <a href="#" class="brand-logo right">
+                Logo {{2+2}} <span ng-bind="vardas">test</span>
+            </a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
                 <li>
                     <a href="Aurimas.html" class="m_nuoroda">Aurimas</a>
