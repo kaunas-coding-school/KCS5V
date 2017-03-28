@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="manoApp">
-
+<html lang="en" ng-app="">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <head>
     <meta charset="UTF-8">
     <title>sugalvotas.lt</title>
@@ -8,21 +8,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
     <link rel="stylesheet" href="css/karolis.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="js.angular.manoApp.js"></script>
-    <script src="js.angular.controllers.dariusController.js"></script>
-    <script src="js.angular.controllers.diletaController.js"></script>
-    <script src="js.angular.controllers.dziugasController.js"></script>
-    <script src="js.angular.controllers.ignasController.js"></script>
-    <script src="js.angular.controllers.karolisController.js"></script>
+
+
+    <script src="js.angular.controllers.DariusController.js"></script>
+    <script src="js.angular.controllers.DiletaController.js"></script>
+    <script src="js.angular.controllers.DziugasController.js"></script>
+    <script src="js.angular.controllers.IgnasController.js"></script>
+    <script src="js.angular.controllers.KarolisController.js"></script>
     <script src="js.angular.controllers.TautvydasController.js"></script>
     <script src="js.angular.controllers.TomasController.js"></script>
+    <script src="js.angular.manoApp.js"></script>
 
 </head>
 
 
 <body ng-init="vardas='Tautvydas'">
-
+<div ng-app="">
+    {{2+2}}
+</div>
 
 <div class="row">
     <nav>
@@ -47,10 +50,8 @@
         </div>
     </nav>
 </div>
-<div ng-app="">
-    {{2+2}}
-</div>
-<div class="row" ng-controller="KarolisController">
+
+<div class="row">
 
     <div class="col s3">
 
