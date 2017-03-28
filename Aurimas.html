@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="">
+<html lang="en" ng-app="manoApp">
 
 <head>
     <meta charset="UTF-8">
     <title>Aurimo Page</title>
     <link rel="stylesheet" href="css/Aurimas.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <script src="js/angular/manoApp.js"></script>
+
+    <script src="js/angular/controllers/TomasController.js"></script>
+    <script src="js/angular/controllers/tautvydasController.js"></script>
+    <script src="js/angular/controllers/karolisController.js"></script>
+    <script src="js/angular/controllers/ignasController.js"></script>
+    <script src="js/angular/controllers/dziugasController.js"></script>
+    <script src="js/angular/controllers/diletaController.js"></script>
+    <script src="js/angular/controllers/dariusController.js"></script>
+    <script src="js/angular/controllers/aurimasController.js"></script>
+
+
 </head>
 
 <body ng-init="vardas='Aurimas">
+Logo {{2+2}} <span ng-bind="vardas">test</span>
 <form 1action="/gauti.php">
     First name:<br>
     <input type="text" name="Vardass" value="Mickey">
