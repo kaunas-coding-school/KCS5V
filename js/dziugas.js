@@ -5,6 +5,7 @@ var z=false;
 var y=true;
 var old_img=document.getElementById('elementas1').src;
 var old_txt=document.getElementById('testas').innerHTML;
+
     function keistiPaveiksleli(kint){
         z=!z;
         var img='';

@@ -2,23 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Baltramiejus</title>
-    <link rel="stylesheet" href="css/cssreset.css">
-    <link rel="stylesheet" href="css/Baltramiejus.css">
+    <link rel="stylesheet" href="css/cssreset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css" />
+    <link rel="stylesheet" href="css/Baltramiejus.css" />
+    <script src="../../../angular.min.js"></script>
 </head>
 <body>
 
-<div class="header">
-    <b>
-    Motohospital
-    </b>
-</div>
+
+    <!-- Navbar goes here -->
+
+    <!-- Page Layout here -->
+    <div class="row">
+        <div class="col s3 rowSpalva1">
+            <div class="col s6">
+                Laba diena
+            </div>
+            <!-- Grey navigation panel -->
+        </div>
+
+        <div class="col s9 rowSpalva2">
+            <!-- Teal page content  -->
+            Viso gero
+        </div>
+
+    </div>
+    <div class="prisijungimas">
+    <form action="/gauti.php">
+        First name:<br>
+        <input type="text" name="firstname" value="">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="">
+        <br>
+        Žinutė:<br>
+        <textarea name="zinute"></textarea>
+        <br>
+        <input type="submit" value="Siūsti">
+    </form>
+    </div>
+
+
+    <!--
+    <div class="header">
+        <b>
+        Motohospital
+        </b>
+    </div>
+    -->
+
+<!--
 <div class="mygtukas">
     <b>
     <button type="button" onclick="manoFunkcija('=)')">Spausti</button>
     </b>
 </div>
+-->
+
+<!--
 <div class="wrapperis">
     <div class="sidebar">
         <b>
@@ -51,6 +94,9 @@
         </b>
     </p>
 </div>
+-->
+
+<!--
 <div class="mano_nuotrauka">
     <b>
         Mano paveikslėlis
@@ -61,6 +107,7 @@
         Visos teisės saugomos vienu kirčiu per makufelį...
     </b>
 </div>
+-->
 
 <script src="js/Baltramiejus.js"></script>
 
