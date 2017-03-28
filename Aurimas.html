@@ -22,7 +22,7 @@
 
 </head>
 
-<body ng-init="vardas='Aurimas">
+<body ng-init="vardas='Aurimas'">
 Logo {{2+2}} <span ng-bind="vardas">test</span>
 <form 1action="/gauti.php">
     First name:<br>
@@ -39,15 +39,17 @@ Logo {{2+2}} <span ng-bind="vardas">test</span>
     Meniu
 </div>
 <div class="wrapperis">
+
     <div class="sideBar">
         Sidebar
     </div>
-    <div class="content">
+    <div class="content" ng-controller="AurimasController">
         Content
         <div class="dropdown-content">
 
-            <p class="paragarafas">
-                Paragrafas
+            <p class="paragarafas"
+               ng-bind="AurimasController.title">
+
             </p>
             <p class="paragarafas">
                 Paragrafas 2

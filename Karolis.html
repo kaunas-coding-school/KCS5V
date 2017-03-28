@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<html lang="en" ng-app="manoApp">
+
 <head>
     <meta charset="UTF-8">
     <title>sugalvotas.lt</title>
@@ -8,7 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
     <link rel="stylesheet" href="css/karolis.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js.angular.manoApp.js"></script>
+    <script src="js.angular.controllers.dariusController.js"></script>
+    <script src="js.angular.controllers.diletaController.js"></script>
+    <script src="js.angular.controllers.dziugasController.js"></script>
+    <script src="js.angular.controllers.ignasController.js"></script>
+    <script src="js.angular.controllers.karolisController.js"></script>
+    <script src="js.angular.controllers.tautvydasController.js"></script>
+    <script src="js.angular.controllers.TomasController.js"></script>
 
 </head>
 
@@ -42,7 +50,7 @@
 <div ng-app="">
     {{2+2}}
 </div>
-<div class="row">
+<div class="row" ng-controller="KarolisController">
 
     <div class="col s3">
 

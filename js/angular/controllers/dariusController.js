@@ -1,1 +1,4 @@
-app.controller('DariusController', dariusController());
+function DariusController () {
+    var vm = this;
+    vm.title = 'Antraštė';
+}
