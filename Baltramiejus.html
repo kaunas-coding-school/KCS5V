@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/cssreset.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css" />
     <link rel="stylesheet" href="css/Baltramiejus.css" />
+    <script src="../../../angular.min.js"></script>
 </head>
 <body>
-
 
 
     <!-- Navbar goes here -->
@@ -29,16 +29,29 @@
         </div>
 
     </div>
+    <div class="prisijungimas">
+    <form action="/gauti.php">
+        First name:<br>
+        <input type="text" name="firstname" value="">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="">
+        <br>
+        Žinutė:<br>
+        <textarea name="zinute"></textarea>
+        <br>
+        <input type="submit" value="Siūsti">
+    </form>
+    </div>
 
 
-
-<!--
-<div class="header">
-    <b>
-    Motohospital
-    </b>
-</div>
--->
+    <!--
+    <div class="header">
+        <b>
+        Motohospital
+        </b>
+    </div>
+    -->
 
 <!--
 <div class="mygtukas">
