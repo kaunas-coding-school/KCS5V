@@ -1,53 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Pirmas puslapis</title>
     <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
     <link rel="stylesheet" href="css/Tomas.css">
+
 </head>
 <body>
 
-<div class="header" id="demo">
-    <button type="button" onclick="manoFuunkcija('cia gali buti jusu reklama')">spausti</button>
-    <h1>Senas geras restoranas</h1>
+<div class="row ">
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Pavadinimas{{2+6}}</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="http://www.buytengewoon.nl/">Terasos</a></li>
+                <li><a href="http://archatlas.tumblr.com/post/105659963478">Dailylentes</a></li>
+                <li><a href="http://www.horsesandheels.com/2013/08/stable-style-shire-stables/">Stogai</a></li>
+            </ul>
+        </div>
+    </nav>
 </div>
-<div class="wraper">
-    <div class="sidebar">
-        <h4>Gerimai</h4>
-        <p>Cola.</p>
-        <p>Sula</p>
-        <p>Pienas</p>
-        <p>Alus</p>
-        <p>Vanduo</p>
-
+{{2+2}}
+<div class="row reklama">
+    <div class="col s20 m6">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+                <span class="card-title">Jusu reklama</span>
+                <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+                <a href="#">This is a link</a>
+                <a href="#">This is a link</a>
+            </div>
+        </div>
     </div>
-    <div class="sidebar1">
-
-        <h4>Desertai</h4>
-        <p>Ledai.</p>
-        <p>Pyragelis</p>
-        <p>Sokoladas</p>
-        <p>Tortas</p>
-        <p>Keksiukai</p>
-
-    </div>
-    <div class="content">
-        <h4>Meniu</h4>
-        <p>Kiauliena</p>
-        <p>Jautiena</p>
-        <p>Paukstiena</p>
-        <p>Zveriena</p>
-        <p>Cepelinai</p>
-
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">Jusu klausimai</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                    <form action="/gauti.php">
+                        First name:<br>
+                        <input type="text" name="firstname">
+                        <br>
+                        Last name:<br>
+                        <input type="text" name="lastname">
+                        <br><br>
+                        <input type="submit">
+                    </form>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+<div class="container-fluid text-center bg-grey">
+    <h2>Portfolio</h2>
+    <h4>What we have created</h4>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/ed/29/05/ed2905a33d68e59119a5e2071ece103e.jpg" alt="Paris" style="height:600px">
+                <p><strong>Paris</strong></p>
+                <p>Yes, we built Paris</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/0d/cb/d1/0dcbd1847f86596fabada0e35132671d.jpg" alt="New York " style="height:600px">
+                <p><strong>New York</strong></p>
+                <p>We built New York</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/db/4f/67/db4f670e4d5742cbec36ec826e4696ba.jpg" alt="San Francisco" style="height:600px">
+                <p><strong>San Francisco</strong></p>
+                <p>Yes, San Fran is ours</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/26/c9/33/26c9336583b3def1c322e0164fd4dc33.jpg" style="height:600px">
+                <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+                <a href="http://www.archdaily.com/catalog/us/products/5311/roofing-structural-roof-vmzinc?ad_navigation=related-products">This is a link</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/30/f0/7d/30f07daddb3f232b990631c3ba89d0fa.jpg" style="height:600px">
+                <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+                <a href="https://www.futuristarchitecture.com/12996-green-roof.html">This is a link</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/bc/83/a5/bc83a56709f0d6f7e4aae67f4f911f8c.jpg" style="height:600px">
+                <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+                <a href="https://www.futuristarchitecture.com/12996-green-roof.html">This is a link</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/be/d6/d7/bed6d7ff20855574135cb9476b2b9592.jpg" style="height:600px">
+                <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+                <a href="#http://www.flickr.com/photos/saxonfenken/3081705331/sizes/o/in/photostream/">This is a link</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+    </div>
+</footer>
+
+
+
 <script src="js/Tomas.js"></script>
-
-<div class="footer">
-    Musu kontaktai
-    <button type="button" onclick="kaitaliotiTeksta('naujas tekstas')">spausti</button>
-    <h5  id="demo1">Kaunas Sanciai kareivines 1a.</h5>
-</div>
 </body>
 </html>
