@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="">
+<html lang="en" ng-app="manoApp">
 <head>
     <meta charset="UTF-8">
     <title>Pirmas puslapis</title>
@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
+
+
+
     <link rel="stylesheet" href="css/Tomas.css">
+    <script src="js/angular/manoApp.js"></script>
+    <script src="js/angular/controllers/TomasController.js"></script>
+    <script src="js/angular/controllers/tautvydasController.js"></script>
+    <script src="js/angular/controllers/karolisController.js"></script>
+    <script src="js/angular/controllers/ignasController.js"></script>
+    <script src="js/angular/controllers/dziugasController.js"></script>
+    <script src="js/angular/controllers/diletaController.js"></script>
+    <script src="js/angular/controllers/dariusController.js"></script>
+
 
 </head>
 <body>
@@ -95,12 +107,12 @@
 </div>
 
 
-<div class="row">
+<div class="row" ng-controller="TomasController">
     <div class="col s12 m3">
         <div class="card">
             <div class="card-image">
                 <img src="https://s-media-cache-ak0.pinimg.com/564x/26/c9/33/26c9336583b3def1c322e0164fd4dc33.jpg" style="height:600px">
-                <span class="card-title">Card Title</span>
+                <span class="card-title"ng-bind="TomasController.title">Card Title</span>
             </div>
             <div class="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
