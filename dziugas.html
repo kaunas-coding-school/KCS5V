@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="css/dziugas.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 </head>
-<body>
+<body ng-init="vardas='Dziugas'">
 
-{{2+2}}
+
+{{2+2}} <span ng-bind="vardas">test</span>
+
 
 <div>
     <nav class="s">
