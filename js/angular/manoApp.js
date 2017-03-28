@@ -1,6 +1,6 @@
 var app = angular.module('manoApp', []);
 
-app.controller('TautvydasController', tautvydasController());
+app.controller('TautvydasController', TautvydasController());
 app.controller('KarolisController', karolisController());
 app.controller('TomasController', tautvydasController());
 app.controller('DziugasController', dziugasController());
