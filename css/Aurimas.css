@@ -11,16 +11,29 @@ div.header {
     text-transform: uppercase;
 }
 
-.header, .footer {
+.header {
     height: 150px;
     text-align: center;
     border: 2px solid black;
     background-color: darkgoldenrod;
     color: white;
-   }
-.wrapperis{
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    background-color: darkgoldenrod;
+}
+
+.wrapperis {
     height: 300px;
 }
+
 .sideBar, .content {
     border: 2px black;
     font-size: 200%;
@@ -30,27 +43,37 @@ div.header {
 
 .sideBar {
     width: 20%;
+    padding: 10px;
 }
 
 .content {
+    padding: 10px;
     width: 80%;
-position: absolute;
+    position: absolute;
     display: inline-block;
+    min-height: 100%;
+    margin: 0 auto -50px;
 }
-.dropdown-content{
+
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px lightgrey;
+    background-color: darkgoldenrod;
+    min-width: 30%;
+    box-shadow: 2px 8px 16px 0px whitesmoke;
+    border-radius: 10%;
     padding: 12px 16px;
     z-index: 1;
 }
-.content:hover .dropdown-content{
+
+.content:hover .dropdown-content {
     display: block;
 }
-.paragarafas{
+
+
+.paragarafas {
     font-size: 80%;
+    text-decoration: underline;
 }
 
 
