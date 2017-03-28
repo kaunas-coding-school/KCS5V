@@ -7,5 +7,5 @@ app.controller('DziugasController', DziugasController());
 app.controller('IgnasController', IgnasController());
 app.controller('DariusController', dariusController());
 app.controller('DiletaController', DiletaController());
-app.controller('AurimasController', aurimasController());
+app.controller('AurimasController', AurimasController());
 
