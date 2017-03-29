@@ -44,7 +44,17 @@
     </form>
     </div>
 
-
+<div id = "naujas" class="col s6">
+    <div class="chip"
+         ng-repeat ="asmuo in bjc.masyvas"
+         ng-click = "!asmuo.state"
+         >
+    <div class="chip" ng-repeat="asmuo" in bjc.masyvas>
+        <img src="{{asmuo.picture}}" alt="{{asmuo.name}}">
+        {{asmuo.name}}
+    </div>
+    </div>
+</div>
     <!--
     <div class="header">
         <b>
