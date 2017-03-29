@@ -3,66 +3,7 @@ body{
     color: blue;
     margin: 10px;
     padding: 10px;
-    background-image: url("http://www.efoto.lt/files/images/62840/fonas.medium.jpg");
+    background-color: cornflowerblue;
 
 }
- .footer {
-    height: 144px;
-    text-align: left;
-    border: 5px solid black;
-    color: red;
-     background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXk5cOEM0F_7NzyOp4R4OrLDwsLLR4eG5tWhFoK8YBW7_z_MS6Ow");
-     background-repeat: no-repeat;
-     background-position: right top;
 
- }
-.header{
-    height: 150px;
-    text-align: center;
-    border: 5px solid black;
-    color: black;
-    font-family: Algerian;
-    font-size: 200%;
-
-}
-.sidebar, .sidebar1 {
-    display: block;
-    text-align: left;
-    width: 20%;
-    border: 3px solid gray;
-    height: 99%;
-    background-image: url("http://images.prodesign.lt/2011/03/Grudetas_fonas_11.png");
-
-    color: red;
-    
-}
-h4 {
-    text-align: center;
-    margin: 20px;
-    border: 3px solid gray;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjlSsG1qjkydvX4vkS0yVd3qv8J8yxTOPIOPgCVsZdWhO332Yu");
-}
-p {
-    background-color: bisque;
-    border: 5px solid whitesmoke;
-    margin: 50px;
-}
-.content {
-    width: 59%;
-    color: red;
-    background-image: url("http://images.prodesign.lt/2011/03/Grudetas_fonas_10.png");
-   
-    display: block;
-    height: 99%;
-    float: left;
-    border: 3px solid cadetblue;
-}
-.wraper {
-    height: 600px;
-}
-.sidebar {
-    float: right;
-}
-.sidebar1 {
-    float: left;
-}

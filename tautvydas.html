@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="manoApp">
 <head>
     <meta charset="UTF-8">
     <title>Tautvydas</title>
-    <link rel="stylesheet" href="css/cssreset.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-
     <link rel="stylesheet" href="css/tautvydas.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <script src="js/angular/controllers/AurimasController.js"></script>
+    <script src="js/angular/controllers/DiletaController.js"></script>
+    <script src="js/angular/controllers/DziugasController.js"></script>
+    <script src="js/angular/controllers/IgnasController.js"></script>
+    <script src="js/angular/controllers/KarolisController.js"></script>
+    <script src="js/angular/controllers/TautvydasController.js"></script>
+    <script src="js/angular/controllers/TomasController.js"></script>
+    <script src="js/angular/controllers/DariusController.js"></script>
+
+    <script src="js/angular/manoApp.js"></script>
+
+
 </head>
-<body>
+<body ng-init="vardas='Tautvydas'">
 
 <div class="row blue  lighten-2">
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo right">Logo</a>
+            <a href="#" class="brand-logo right">
+                Logo {{2+2}} <span ng-bind="vardas">test</span>
+            </a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
                 <li>
                     <a href="Aurimas.html" class="m_nuoroda">Aurimas</a>
@@ -30,13 +43,13 @@
         </div>
     </nav>
 </div>
-<div class="row">
+<div class="row" ng-controller="TautvydasController as tdc">
     <div class="col s3">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="card blue-grey darken-1">
                     <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
+                        <span class="card-title" ng-bind="tdc.title">Card Title</span>
                         <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.</p>
                     </div>
@@ -61,14 +74,30 @@
            onclick="keistiteksta('naujas tekstas')"
            class="col s6"
         >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla sollicitudin augue, et tincidunt
-            tellus vulputate nec. Vestibulum faucibus dui sit amet consectetur eleifend. Mauris imperdiet tortor vel
-            scelerisque sollicitudin. Ut arcu odio, vehicula eget hendrerit at, auctor ut libero. Maecenas dui ante,
-            facilisis in tellus ultricies, rutrum condimentum neque. Ut lobortis risus vitae lorem blandit, et posuere
-            nisl rhoncus. Etiam at lorem sollicitudin, fringilla nibh et, hendrerit eros. Mauris tristique ligula in
-            rutrum gravida. Duis vitae urna tempus, ornare erat ut, viverra nunc. Cras placerat volutpat erat eu
-            efficitur.
-            <img src="img/kcs.jpg" id="paveiksl" width="100" height="100"/> </p>
+            <br>
+
+        <form action="/gauti.php" method="post">
+        <br>
+            Vardas<br>
+            <input type="text" name="firstname" value="">
+            <br>
+            Pavarde<br>
+            <input type="text" name="lastname" value="">
+            <br>
+            Zinute<br>
+            <textarea name="zinute"></textarea>
+            <br><br>
+            <input type="submit" value="Siusti">
+        </form>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla sollicitudin augue, et tincidunt
+        tellus vulputate nec. Vestibulum faucibus dui sit amet consectetur eleifend. Mauris imperdiet tortor vel
+        scelerisque sollicitudin. Ut arcu odio, vehicula eget hendrerit at, auctor ut libero. Maecenas dui ante,
+        facilisis in tellus ultricies, rutrum condimentum neque. Ut lobortis risus vitae lorem blandit, et posuere
+        nisl rhoncus. Etiam at lorem sollicitudin, fringilla nibh et, hendrerit eros. Mauris tristique ligula in
+        rutrum gravida. Duis vitae urna tempus, ornare erat ut, viverra nunc. Cras placerat volutpat erat eu
+        efficitur.
+        <img src="img/kcs.jpg" id="paveiksl" width="100" height="100"/> </p>
         <p id="naujas" class="col s6">
             Etiam ac suscipit lorem, sit amet fringilla libero. Maecenas erat metus, auctor id dictum a, sagittis sed
             augue. Nam id accumsan diam. Nunc sed nunc aliquet, viverra tortor quis, efficitur metus. Interdum et
@@ -86,8 +115,6 @@
     <br/>
     <br/>
 </div>
-
-<script src="js/tautvydas.js"></script>
 
 </body>
 </html>

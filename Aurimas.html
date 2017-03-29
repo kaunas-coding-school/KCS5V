@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="manoApp">
+
 <head>
     <meta charset="UTF-8">
     <title>Aurimo Page</title>
     <link rel="stylesheet" href="css/Aurimas.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <script src="js/angular/manoApp.js"></script>
+
+    <script src="js/angular/controllers/TomasController.js"></script>
+    <script src="js/angular/controllers/TautvydasController.js"></script>
+    <script src="js/angular/controllers/KarolisController.js"></script>
+    <script src="js/angular/controllers/IgnasController.js"></script>
+    <script src="js/angular/controllers/DziugasController.js"></script>
+    <script src="js/angular/controllers/DiletaController.js"></script>
+    <script src="js/angular/controllers/DariusController.js"></script>
+    <script src="js/angular/controllers/AurimasController.js"></script>
+
 </head>
 
-<body>
+<body ng-init="vardas='Aurimas'">
+Logo {{2+2}} <span ng-bind="vardas">test</span>
+<form 1action="/gauti.php">
+    First name:<br>
+    <input type="text" name="Vardass" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="Pavarde" value="Mouse">
+    <!--<br>Eilute<br>-->
+    <!--<textarea name="=Eilute"></textarea>-->
+    <!--<br><br>-->
+    <input type="submit" value="Vykdyti">
+</form>
 <div class="header">
     Meniu
 </div>
 <div class="wrapperis">
+
     <div class="sideBar">
         Sidebar
     </div>
-    <div class="content">
+    <div class="content" ng-controller="AurimasController">
         Content
         <div class="dropdown-content">
 
-            <p class="paragarafas">
-                Paragrafas
+            <p class="paragarafas"
+               ng-bind="AurimasController.title">
+
             </p>
             <p class="paragarafas">
                 Paragrafas 2
@@ -28,6 +57,7 @@
         </div>
     </div>
 </div>
+
 <div class="footer">
     Visos teises priklauso @A
 </div>

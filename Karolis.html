@@ -1,56 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <head>
     <meta charset="UTF-8">
-    <title>Pavadinimasdasfadssd</title>
+    <title>sugalvotas.lt</title>
+    <!--<link rel="stylesheet" href="css/cssreset.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
     <link rel="stylesheet" href="css/karolis.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+    <script src="js.angular.controllers.DariusController.js"></script>
+    <script src="js.angular.controllers.DiletaController.js"></script>
+    <script src="js.angular.controllers.DziugasController.js"></script>
+    <script src="js.angular.controllers.IgnasController.js"></script>
+    <script src="js.angular.controllers.KarolisController.js"></script>
+    <script src="js.angular.controllers.TautvydasController.js"></script>
+    <script src="js.angular.controllers.TomasController.js"></script>
+    <script src="js.angular.manoApp.js"></script>
+
 </head>
-<body>
 
 
-
-<div class="sidebar">
-    Turinys
-    <img src="http://www.etudessansfrontieres.org/wp-content/uploads/2017/03/cool-background-wallpapers-for-computers-150x150.jpg" alt="W3Schools.com">
-    <img src="https://www.all4-you.com/wp-content/uploads/2016/11/Lovely-Cool-Rasta-Wallpapers-150x150.jpg" alt="W3Schools.com">
-    <img src="http://funkyfreshstudio.com/wp-content/uploads/cool-wallpaper-for-iphone-2_150.jpg" alt="W3Schools.com">
-    <img src="http://erahomedesign.com/wp-content/uploads/2016/06/Cool-mid-century-Modern-Bookcase-150x150.jpg" alt="W3Schools.com">
+<body ng-init="vardas='Tautvydas'">
+<div ng-app="">
+    {{2+2}}
 </div>
 
+<div class="row">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo right">Logo</a>
 
-<div class="wrapper">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li>
+                    <button onclick="createimg(aaa,150,150)">sukurk paveikslėlį 1</button>
+                </li>
+                <li>
+                    <button onclick="createimg(bbb,150,150)">sukurk paveikslėlį 2</button>
+                </li>
+                <li>
+                    <button onclick="createimg(ccc,150,150)">sukurk paveikslėlį 3</button>
+                </li>
+                <li>
+                    <button onclick="createimg(ddd,150,150)">sukurk paveikslėlį 4</button>
+                </li>
+                <li><a class="waves-effect waves-light btn">Button <i class="material-icons right">cloud</i></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
-    <div class="header">
-        <h1>Karolio internetinis page'as
-            <i class="fa fa-cloud"></i></h1>
+<div class="row">
+
+    <div class="col s3">
+
+        <p><a href="https://www.w3schools.com/css/">Pradžia <i class="fa fa-camera-retro"></i></a></p>
+        <p><a href="https://www.w3schools.com/css/">Idėjos <i class="fa fa-key"></i></a></p>
+        <p><a href="https://www.w3schools.com/css/">Darbai <i class="fa fa-warning"></i></a></p>
+        <p><a href="https://www.w3schools.com/css/">Pergalės <i class="fa fa-sort-up"></i></a></p>
 
     </div>
 
-    <div class="content">
-        <a href="https://www.w3schools.com/css/"><p>Pradžia <i class="fa fa-camera-retro"></i></p></a>
-        <a href="https://www.w3schools.com/css/"><p>Idėjos <i class="fa fa-key"></i></p></a>
-        <a href="https://www.w3schools.com/css/"><p>Darbai <i class="fa fa-warning"></i></p></a>
-        <a href="https://www.w3schools.com/css/"><p>Pergalės <i class="fa fa-sort-up"></i></p></a>
+
+    <div class="col s9">
+        <div class="row">
+            <div class="col s12">
+                <h4>Karolio internetinis page'as
+                    <i class="fa fa-cloud"></i></h4>
+            </div>
+            <div class="col s12">
+                Visos teisės yra saugomos.
+                <p><a href="https://www.w3schools.com/css/">Nuoroda į CSS</a></p>
+                <p id="demo">A Paragraph</p>
+                <button type="button" onclick="myFunction()">Spausk</button>
+            </div>
+        </div>
     </div>
 
-    <div class="footer">
-        Visos teisės yra saugomos.
-        <p><a href="https://www.w3schools.com/css/">Nuoroda į CSS</a></p>
+    <div>
+
+        <form action="/gauti.php">
+            Vardas:<br>
+            <input type="text" name="firstname" value="Vardenis">
+            <br>
+            Pavardė:<br>
+            <input type="text" name="lastname" value="Pavardenis">
+            <br><br>
+            <input type="submit" value="Įrašyti">
+        </form>
     </div>
-
-    <script src="js\karolis.js"></script>
-
 
 </div>
 
-<p id="demo">A Paragraph</p>
-<button type="button" onclick="myFunction()">Spausk</button>
-
-
-
-
+<script src="js\karolis.js"></script>
 
 </body>
 </html>

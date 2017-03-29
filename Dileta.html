@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=""ng-app="manoApp">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="../Score-the-layup/css/cssreset.css">
     <link rel="stylesheet" href="css/dileta.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <script src="js/angular/controllers/AurimasController.js"></script>
+    <script src="js/angular/controllers/DariusController.js"></script>
+    <script src="js/angular/controllers/DiletaController.js"></script>
+    <script src="js/angular/controllers/DziugasController.js"></script>
+    <script src="js/angular/controllers/IgnasController.js"></script>
+    <script src="js/angular/controllers/KarolisController.js"></script>
+    <script src="js/angular/controllers/TautvydasController.js"></script>
+    <script src="js/angular/controllers/TomasController.js"></script>
+    <script src="js/angular/manoApp.js"></script>
+
+
 </head>
-<body>
+<body ng-init="vardas='Dileta'">
+
+<form action="/gauti.php">
+    First name:<br>
+    <input type="text" name="firstname" value="">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="">
+    <br>
+    Zinute<br>
+    <textarea name ="zinute"></textarea>
+    <br><br>
+    <input type="submit" value="Siusti">
+</form>
+
+{{2+2}}
 
 <div class="header">
     <button type="button" onclick="manoFunkcija2('img/muse.png')">Muse</button>
@@ -42,7 +70,7 @@
 
 </div>
 
-<div class="content2">
+<div class="content2"ng-controller= "DiletaController as dlc";>
     <h5
     class="remelis2">visi sie rinkejai perkelti
         is 6 rinkimu apylinkes</h5>
