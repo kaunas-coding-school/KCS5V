@@ -49,9 +49,15 @@
             <div class="col s12 m12 l12">
                 <div class="card blue-grey darken-1">
                     <div class="card-content white-text">
-                        <span class="card-title" ng-bind="tdc.title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <span class="card-title"
+                              ng-bind="tdc.title">Card Title</span>
+                        <p>
+                            {{tdc.vardas}}
+                            {{tdc.pavarde}}
+                            <input type="text" ng-model="tdc.vardas"/>
+                            <input type="text" ng-model="tdc.vardas"/>
+                            <span ng-bind="tdc.vardas"></span>
+                        </p>
                     </div>
                     <div class="card-action">
                         <a href="#">This is a link</a>
@@ -76,8 +82,9 @@
         >
             <br>
 
+
         <form action="/gauti.php" method="post">
-        <br>
+            <br>
             Vardas<br>
             <input type="text" name="firstname" value="">
             <br>
@@ -98,13 +105,20 @@
         rutrum gravida. Duis vitae urna tempus, ornare erat ut, viverra nunc. Cras placerat volutpat erat eu
         efficitur.
         <img src="img/kcs.jpg" id="paveiksl" width="100" height="100"/> </p>
-        <p id="naujas" class="col s6">
-            Etiam ac suscipit lorem, sit amet fringilla libero. Maecenas erat metus, auctor id dictum a, sagittis sed
-            augue. Nam id accumsan diam. Nunc sed nunc aliquet, viverra tortor quis, efficitur metus. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus. Nulla nisi elit, maximus id urna vel, porta rhoncus
-            tortor. Sed vitae nisi egestas, semper tellus sit amet, accumsan quam. Donec hendrerit mi non nisl lobortis,
-            sit amet malesuada leo tempus. Aliquam eu fermentum lorem, sollicitudin rutrum dolor.
-        </p>
+        <div id="naujas" class="col s6">
+
+            <div class="chip"
+                 ng-repeat="asmuo in tdc.masyvas"
+                 ng-click="asmuo.state=!asmuo.state"
+            >
+                <img src="{{asmuo.picture}}"
+                     alt="{{asmuo.name}}"
+                     ng-show="asmuo.state"
+                >
+                {{asmuo.name}}
+            </div>
+
+        </div>
     </div>
 </div>
 <div class="row blue lighten-2 z-depth-5">
