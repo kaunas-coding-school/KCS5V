@@ -4,5 +4,7 @@
 function TomasController () {
     var vm = this;
     vm.title = 'antraste';
+    vm.vardas = 'Tomas';
+    vm.pavarde = 'Buinevicius';
 
 }
