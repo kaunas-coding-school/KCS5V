@@ -1,5 +1,5 @@
 body {
-    background-image: url("/img/Motohospital_logo.jpg");
+    /*background-image: url("/img/Motohospital_logo.jpg");*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -8,17 +8,27 @@ body {
     /*margin: 0;
     padding: 0;*/
 }
-.rowSpalva1 {
-    background-color: #4a66ce;
+.linkas {
+    background-color: #4db6ac;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 0.2%;
+    opacity: 0.6;
+    position: absolute;
+    left: 78%;
+    top: 0%;
+    font-family: "arial";
+    font-size: 13px;
 }
-.rowSpalva2 {
-    background-color: transparent;
-    color: white;
+.header {
+    color: red;
+    font-style: italic;
+    background: 50px 10px;
+    background-color: #4db6ac;
 }
-.prisijungimas{
-    color: #ffffff;
-}
+.logo{
 
+}
 
 /*
 .header {
